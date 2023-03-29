@@ -12,22 +12,22 @@ function Summarizebox(){
                     <h2 className=" text-2xl text-Heading_tag font-Heebo">Summarizer</h2>
                     <h2 className="text-xl text-para font-Heebo cursor-pointer">Upload Doc</h2>
                 </div>
-                {/* <!-- <div> --> */}
+                
                     <h2 className=" ml-[26%] text-2xl font-Heebo text-Heading_tag  font-medium flex items-center">Summarized Text</h2>
-                {/* <!-- </div> --> */}
+                
                 
             </div>
 
             <div className=" w-full mx-auto flex flex-row gap-x-[2px]">
-                <div className="border-solid border-2 border-black min-w-[624px] min-h-[360px] bg-box_inside border-r-4">
+                <div className="border-solid border-2 border-black min-w-[624px] min-h-[360px] bg-box_inside border-r-4 outline-none">
                     
                     <form >
-                     <textarea placeholder="Enter your input text here. . ." className="min-w-[621px] min-h-[360px]  resize-none border-none"></textarea>
+                     <textarea placeholder="Enter your input text here. . ." className="min-w-[621px] min-h-[360px]  resize-none border-none outline-none "></textarea>
                     </form>
                 </div>
-                <div className="border-solid border-t-[2px] border-black min-w-[624px] min-h-[360px]">
+                <div className="border-solid border-t-[2px] border-black min-w-[624px] min-h-[360px] outline-none">
                 <form >
-                     <textarea placeholder="" className="min-w-[621px] min-h-[360px] resize-none border-l-2 border-black" ></textarea>
+                     <textarea placeholder="" className="min-w-[621px] min-h-[360px] resize-none border-l-2 border-black outline-none" ></textarea>
                     </form>
                 </div>
             </div>
